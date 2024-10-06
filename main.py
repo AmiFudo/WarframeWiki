@@ -202,7 +202,7 @@ async def dataupdate(ctx, *, json_text):
         await ctx.send(f'Ошибка при обработке JSON: {e}')
 
 
-bot.run('MTI5MjIxNTQyODg1NjE1NjI4Mw.G_-eih.3XicXI0IuJBbNtQWefgcTSny1bNytHo6awWTr8')
+bot.run('')
 =======
 async def save_data(ctx, json_data):
     connection = sqlite3.connect('database.db')
